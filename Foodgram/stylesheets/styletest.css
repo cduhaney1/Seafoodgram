@@ -22,9 +22,9 @@ html, body {
     outline: 5px solid black
 
 }
-.seafood-pictures:hover img {
+.seafood-pictures.big img {
     transform: scale(1.10);
-    opacity: 1.0;
+    
 
 }
 
@@ -34,9 +34,12 @@ html, body {
     opacity: 0.9;
     /* display: block; */
 }
+.seafood-pictures img.big {
+    transform: scale(2.0);
+}
 
 .types-of-seafood {
-    border: 5px solid grey;
+    border: 5px solid blue;
     display: flex;
     
    min-height: 300px;
